@@ -5,7 +5,7 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 
 ***FLASC:*** <ins>F</ins>u<ins>l</ins>l m<ins>as</ins>s spe<ins>c</ins>trometry plots. Coming soon.
 
-***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex<ins>tracted ion chromatograms. Coming soon.
+***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex</ins>tracted ion chromatograms. Coming soon.
 
 ### Scripts for studying changing injection volumes
 
