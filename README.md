@@ -1,5 +1,5 @@
 ## plOTme: A little set of scripts for visualising Orbitrap data
-A few Python scripts designed to aid in the plotting of MS2 and associated HPLC data obtained on an Orbitrap. After initial data processing in your software of choice (if using the Orbitrap in C/D/017, this will be FreeStyle), export your data in CSV format, load things into the relevant script, and let Python take care of the rest.
+A few Python scripts designed to aid in the plotting of MS2 and associated HPLC data obtained on an Orbitrap. After initial data processing in FreeStyle, export your data in CSV format, load things into the relevant script, and let Python take care of the rest.
 
 ### General-purpose scripts
 
