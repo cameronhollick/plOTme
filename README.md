@@ -3,9 +3,9 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 
 ### General-purpose scripts
 
-***FLASC:*** <ins>F</ins>u<ins>l</ins>l m<ins>as</ins>s spe<ins>c</ins>trometry plots. Coming soon.
+***FLASC:*** <ins>F</ins>u<ins>l</ins>l m<ins>as</ins>s spe<ins>c</ins>trometry plots. Feed a folder with your CSVs into the script, and it'll plot up all your data into individual MS1 spectra.
 
-***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex</ins>tracted ion chromatograms. Coming soon.
+***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex</ins>tracted ion chromatograms. Feed a folder with your CSVs into the script, and it'll plot up all your data into individual EICs.
 
 ### Scripts for studying changing injection volumes
 
