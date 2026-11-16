@@ -12,3 +12,10 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 ***SINCH:*** <ins>S</ins>tudying <ins>in</ins>jection volumes by <ins>ch</ins>romatogram comparison. Designed for plotting chromatograms on the same set of axes where the independent factor is the injection volume (i.e. runtime is the same across all samples). By default, reads the first 5 CSV files in a user-specified folder and assigns them to 1, 2, 5, 10 and 20 μL (can be changed in the script).
 
 ***SINTA:*** <ins>S</ins>tudying <ins>in</ins>jection volumes by <ins>ta</ins>ndem mass spectrometry. Coming soon.
+
+### How to install
+1) Download this repo as a ZIP file and extract it to get access to the scripts.
+2) Open a terminal with ```pip``` installed, and create a virtual environment (venv) to complete the installation in.
+3) Activate your venv and enter the command ```pip install plOTme-for-Orbitrap``` to get the newest version from PyPI.
+4) Open the script you want to use in your IDE of choice (I recommend Spyder).
+5) Click run, select the folder containing your data files, and let plOTme do its work!
