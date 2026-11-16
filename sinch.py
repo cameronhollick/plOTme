@@ -6,7 +6,9 @@ Created on Wed Nov  4 12:05:39 2026
 """
 
 # Import packages
-from tkinter.filedialog import askdirectory
+#from tkinter import *
+#from tkinter import ttk
+from tkinter.filedialog import askdirectory#, asksaveasfile
 import pandas as pd
 import psutil,os
 import matplotlib.pyplot as plt
@@ -80,22 +82,55 @@ if runtimes.lower() == 'y':
    ax.legend(handles=legend_elements)
 
    # Check file before saving
-   plt.savefig("temp.jpg")
+   plt.savefig("temp.jpg", bbox_inches = 'tight')
    print("Opening plot preview...")
    preview = Image.open("temp.jpg")
    preview.show()
+   
+   # Save plot
+   #root = Tk()
+   #root.geometry('200x150')
+   
+   #def save():
+   #    files = [('All Files', '*.*'),
+   #          ('Python Files', '*.py'),
+   #          ('Text Document', '*.txt'),
+   #          ('JPEG Image', '*.jpg'),
+   #          ('PNG Image', '*.png')]
+   #    file = asksaveasfile(filetypes = files, defaultextension = files)
+       
+   #def close():
+   #    root.quit()
+       
+   #def save_and_quit():
+   #    save()
+   #    close()
+       
+   #btn = ttk.Button(root, text = 'Save', command = save_and_quit())
+   #btn.pack(side = TOP, pady = 20)
+   #root.after(file, 500, root.destroy())
+   #btn2 = ttk.Button(root, text = 'Close', command = lambda : root.destroy())
+   #btn2.pack(side = BOTTOM, pady = 20)
+   #root.mainloop()
+   
+   # Close image viewer
+   #for process in (process for process in psutil.process_iter() if process.name()=="Photos.exe"):
+   #    process.kill()
 
    # Save plot
    print("Save plot? (y/n) ")
    save_decision = input()
+   
    if save_decision.lower() == 'y':
       print("Enter file name to save under: ")
       save_plot = input()
       save_name = save_plot + ".jpg"
-      saved = plt.savefig(save_name)
+      saved = plt.savefig(os.path.join(path, save_name), bbox_inches = 'tight')
       print("File saved successfully!")
+   
    elif save_decision.lower() == 'n':
        print("Saving aborted. Please re-run this script if you change your mind.")
+   
    else:
        print("Your input was not a valid option. Please re-run this script and type either 'y' or 'n' only.")
        
