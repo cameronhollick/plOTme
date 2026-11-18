@@ -15,6 +15,12 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 
 ***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex</ins>tracted ion chromatograms. Feed a folder with your CSVs into the script, and it'll plot up all your data into individual EICs. Also works with TICs!
 
+### Scripts for studying isotope patterns
+
+***MIP:*** <ins>M<\ins>olecular <ins>i\ins>on <ins>p<\ins>eak plotting. Upload a CSV, specify the m/z of your molecular ion peak, and get the zoomed MS1 spectrum out of the other end.
+
+***MIP-FLASC:*** Study multiple CSVs at once. Coming soon.
+
 ### Scripts for studying changing injection volumes
 
 ***SINCH:*** <ins>S</ins>tudying <ins>in</ins>jection volumes by <ins>ch</ins>romatogram comparison. Designed for plotting chromatograms on the same set of axes where the independent factor is the injection volume (i.e. runtime is the same across all samples). By default, reads the first 5 CSV files in a user-specified folder and assigns them to 1, 2, 5, 10 and 20 μL (can be changed in the script).
