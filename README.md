@@ -17,7 +17,7 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 
 ### Scripts for studying isotope patterns
 
-***MIP:*** <ins>M<\ins>olecular <ins>i\ins>on <ins>p<\ins>eak plotting. Upload a CSV, specify the m/z of your molecular ion peak, and get the zoomed MS1 spectrum out of the other end.
+***MIP:*** <ins>M</ins>olecular <ins>i</ins>on <ins>p</ins>eak plotting. Upload a CSV, specify the m/z of your molecular ion peak, and get the zoomed MS1 spectrum out of the other end.
 
 ***MIP-FLASC:*** Study multiple CSVs at once. Coming soon.
 
