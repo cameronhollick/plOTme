@@ -15,6 +15,8 @@ A few Python scripts designed to aid in the plotting of MS2 and associated HPLC 
 
 ***FLEX:*** <ins>F</ins>u<ins>l</ins>l <ins>ex</ins>tracted ion chromatograms. Feed a folder with your CSVs into the script, and it'll plot up all your data into individual EICs. Also works with TICs!
 
+***DOOD:*** <ins>D</ins>etection <ins>o</ins>f <ins>o</ins>utliers in <ins>d</ins>ata. Does what it says on the tin.
+
 ### Scripts for studying isotope patterns
 
 ***MIP:*** <ins>M</ins>olecular <ins>i</ins>on <ins>p</ins>eak plotting. Upload a CSV, specify the m/z of your molecular ion peak, and get the zoomed MS1 spectrum out of the other end.
